@@ -1,0 +1,68 @@
+{
+  "name": "create-donejs-app",
+  "version": "0.0.1",
+  "description": "Create a new donejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-donejs-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "init.js",
+    "utils.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donejs/create-donejs-app.git"
+  },
+  "keywords": ["donejs"],
+  "author": "DoneJS Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donejs/create-donejs-app/issues"
+  },
+  "homepage": "https://donejs.com",
+  "dependencies": {
+    "cross-spawn-async": "^2.2.5",
+    "debug": "^3.1.0",
+    "generator-donejs": "^2.1.0",
+    "meow": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "yeoman-environment": "^2.3.3"
+  },
+  "donejs": {
+    "dependencies": {
+      "can-component": "^4.0.2",
+      "can-connect": "^2.0.2",
+      "can-define": "^2.0.1",
+      "can-route": "^4.1.0",
+      "can-route-pushstate": "^4.0.1",
+      "can-set": "^1.5.1",
+      "can-stache": "^4.1.0",
+      "can-stache-route-helpers": "<2.0.0",
+      "can-view-autorender": "^4.0.0",
+      "can-zone": "^0.6.13",
+      "done-autorender": "^2.0.0",
+      "done-component": "^2.0.0",
+      "done-css": "^3.0.2",
+      "done-serve": "^2.0.0",
+      "generator-donejs": "^2.1.0",
+      "steal": "^1.6.5",
+      "steal-less": "^1.2.2",
+      "steal-stache": "^4.0.1"
+    },
+    "devDependencies": {
+      "can-debug": "^1.0.0",
+      "can-fixture": "^2.0.2",
+      "donejs-cli": "^2.0.0",
+      "funcunit": "^3.2.0",
+      "steal-conditional": "^1.0.0",
+      "steal-qunit": "^1.0.1",
+      "steal-tools": "^1.11.3",
+      "testee": "^0.7.0"
+    }
+  }
+}
