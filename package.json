@@ -27,8 +27,8 @@
   "homepage": "https://donejs.com",
   "dependencies": {
     "cross-spawn-async": "^2.2.5",
-    "debug": "^3.1.0",
-    "generator-donejs": "^2.1.0",
+    "debug": "^4.1.1",
+    "generator-donejs": "^3.4.0",
     "meow": "^5.0.0",
     "mkdirp": "^0.5.1",
     "yeoman-environment": "^2.3.3"
